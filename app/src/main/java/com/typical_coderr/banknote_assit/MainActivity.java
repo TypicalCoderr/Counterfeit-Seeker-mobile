@@ -179,34 +179,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-//            Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
-//
-//            imgName.setVisibility(View.GONE);
-//            filePath = getRealPathFromURI(selectedImage);
-//            ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-//            thumbnail.compress(Bitmap.CompressFormat.JPEG, 100, bytes);
-//            imageView.setImageBitmap(thumbnail);
-//
-//            File destination = new File(Environment.getExternalStorageDirectory(),
-//                    System.currentTimeMillis() + ".jpg");
-//
-//            FileOutputStream fo;
-//            System.out.println(destination);
-//            try {
-//                destination.createNewFile();
-//                fo = new FileOutputStream(destination);
-//                fo.write(bytes.toByteArray());
-//                fo.close();
-//            } catch (FileNotFoundException e) {
-//                e.printStackTrace();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//
-//            filePath = destination.toString();
-//            imageSelected = true;
-
-
 
 
 
